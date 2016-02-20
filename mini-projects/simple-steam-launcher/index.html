@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Steam Web Launcher</title>
+</head>
+<body>
+<center>
+        <p>
+            steam://rungameid/ <input type="text" placeholder="steam game id" id="steamGameID"></p>
+            <p><a href="javascript:void(0);" onclick="runID(document.getElementById('steamGameID').value)">
+            <img src="http://www.userlogos.org/files/logos/jumpordie/steam_02.png" height="50px"></a></p>
+    <br>
+    <p>for a <strong>game</strong> you own and have installed it will launch</p>
+    <p>for a <strong>game</strong> you own but don't have it installed it will ask to install</p>
+    <p>for a <strong>game</strong> you don't own but its free it will ask to install</p>
+    <p>for a <strong>game</strong> you don't own but its paid it will go to the page</p>
+    <br>
+    <p>
+            steam://run/ <input type="text" placeholder="steam software id" id="steamRun"></p>
+            <p><a href="javascript:void(0);" onclick="run(document.getElementById('steamGameID').value)">
+            <img src="http://www.userlogos.org/files/logos/jumpordie/steam_02.png" height="50px"></a></p>
+    <br>
+    <p>for a <strong>piece of software</strong> you own and have installed it will launch</p>
+    <p>for a <strong>piece of software</strong> you own but don't have it installed it will ask to install</p>
+    <p>for a <strong>piece of software</strong> you don't own but its free it will ask to install</p>
+    <p>for a <strong>piece of software</strong> you don't own but its paid it will go to the page</p>
+    <br>
+    <p>
+            steam://flushconfig/</p>
+            <p><a href="javascript:void(0);" onclick="install(document.getElementById('steamGameID').value)">
+            <img src="http://www.userlogos.org/files/logos/jumpordie/steam_02.png" height="50px"></a></p>
+    </center>
+</body>
+</html>
