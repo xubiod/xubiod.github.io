@@ -1,0 +1,10 @@
+html {
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	
+}
+a:link, a:visited, a:hover, a:active {
+    color: white;
+	font-weight: bold;
+}
